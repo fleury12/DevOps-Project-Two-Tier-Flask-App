@@ -9,7 +9,6 @@ resources:
 
 patches:
   - path: flask-replicas-patch.yaml
-  - path: flask-service-nodeport-patch.yaml
 
 generatorOptions:
   disableNameSuffixHash: true

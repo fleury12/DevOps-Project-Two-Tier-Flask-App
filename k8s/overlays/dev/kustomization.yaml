@@ -7,9 +7,6 @@ resources:
   - ../../base
   - namespace.yaml
 
-patches:
-  - path: flask-service-nodeport-patch.yaml
-
 generatorOptions:
   disableNameSuffixHash: true
 
