@@ -9,6 +9,7 @@ resources:
 
 patches:
   - path: flask-replicas-patch.yaml
+  - path: flask-apm-env-patch.yaml
 
 generatorOptions:
   disableNameSuffixHash: true
@@ -18,3 +19,6 @@ secretGenerator:
     literals:
       - MYSQL_ROOT_PASSWORD=root
       - MYSQL_PASSWORD=root
+  - name: apm-secret
+    literals:
+      - ELASTIC_APM_SECRET_TOKEN=6zknJuhbcWOPMbLENbfJluoK

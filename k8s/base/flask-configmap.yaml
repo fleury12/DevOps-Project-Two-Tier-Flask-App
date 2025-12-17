@@ -6,3 +6,6 @@ data:
   MYSQL_HOST: mysql
   MYSQL_USER: root
   MYSQL_DB: devops
+  ELASTIC_APM_SERVER_URL: https://apm-server-apm-http.elastic-stack.svc:8200
+  ELASTIC_APM_SERVICE_NAME: flask-app
+  ELASTIC_APM_VERIFY_SERVER_CERT: "false"

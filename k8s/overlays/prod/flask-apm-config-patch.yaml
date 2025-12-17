@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: flask-config
+data:
+  ELASTIC_APM_SERVER_URL: "http://apm-server.observability.svc:8200"
+  ELASTIC_APM_ENVIRONMENT: prod

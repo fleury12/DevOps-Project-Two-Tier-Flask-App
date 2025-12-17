@@ -27,3 +27,8 @@ spec:
                 secretKeyRef:
                   name: mysql-secret
                   key: MYSQL_PASSWORD
+            - name: ELASTIC_APM_SECRET_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: apm-secret
+                  key: ELASTIC_APM_SECRET_TOKEN
