@@ -12,7 +12,7 @@ pipeline{
 
         stage('Clone repo'){
             steps{
-                git branch: 'main', url: 'https://github.com/prashantgohel321/DevOps-Project-Two-Tier-Flask-App.git'
+                git branch: 'main', url: 'https://github.com/fleury12/DevOps-Project-Two-Tier-Flask-App.git'
             }
         }
         stage("Sonarqube Analysis") {
